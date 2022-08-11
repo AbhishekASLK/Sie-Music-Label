@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sie Music</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/fevicon.jpeg" type="image/x-icon">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="./assets/logo.png" alt="logo" class="logo" width="150px">
+        <ul class="list-items">
+            <li><a href="#explore" class="active">Explore</a></li>
+            <li><a href="#lyrics">Lyrics</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="https://www.youtube.com/channel/UCWI4mxwTAgyiZdslsbpuTlw" class="btn" target="_blank" >Subcribe Now  <i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+        <img src="./assets/menu-btn.png" class="menu-btn" alt="">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <img src="./assets/profile.jpeg" alt="" width="200px" class="profile">
+            <div class="line"></div>
+            <h2>“Accept everything just the way it is.”
+                ― Miyamoto Musashi, The Book of Five Rings
+            </h2>
+            <p>Hey Sieer, I'm AbhishekASLK. I write what I feel and what I don't.</p>
+            <li><a href="https://www.youtube.com/channel/UCWI4mxwTAgyiZdslsbpuTlw" class="btn">Learn More</a></li>  
+        </div>
+    </header>
+
+    <section class="explore" id="explore">
+        <div class="cards">
+            <div class="card">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dV1aYWIjmSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <a href="https://youtu.be/dV1aYWIjmSk" class="view-more"   target="_blank">View More</a>
+            </div>
+            <div class="card">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mNt34arPZDU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <a href="https://youtu.be/mNt34arPZDU" class="view-more" target="_blank">View More</a>
+            </div>
+            <div class="card">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/whlmgiOt5Qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <a href="https://youtu.be/whlmgiOt5Qc" class="view-more" target="_blank">View More</a>
+            </div>
+            <div class="card">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mN9PV3khCME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <a href="https://youtu.be/mN9PV3khCME" class="view-more" target="_blank">View More</a>
+            </div>
+        </div>
+    </section>
+
+    <br><br><br>
+    <hr>
+    <section class="lyrics" id="lyrics">
+        <h1>Coming Soon</h1>
+    </section>
+    <hr>
+    <br>
+
+    <section class="about" id="about">
+        <h1>🧿About🧿</h1>
+        <div>
+            <p>I'm AbhishekASLK—writer, composer and software engineer. My songs have touched 2503 hearts on youtube over the past 20 months through my youtube channel.
+            Basically I put love into words, sometimes it's not happened so I forced to myself to imagine such things which can help me to write something. I’m not really an artist.  I mean, I AM but I've never been formally trained in music and well, I’ve just worked to write a lyrics that matches my vibes.</p>
+        </div>
+    </section>
+    <br><br>
+    <hr>
+
+    <section class="footer" id="contact">
+        <div class="contact-content">
+            <img src="./assets/logo.png" alt="" width="150px" class="footer-logo">
+            <div class="icons">
+                <a href="https://www.instagram.com/abhishekaslk/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/abhishekaslk/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://twitter.com/AbhishekASLK"><i class="fa-brands fa-twitter" target="_blank"></i></a>
+            </div>
+            <div class="address">
+                <p>Pune | Phone: 9309554593 | Email : bhoslea925@gmail.com</p>
+            </div>
+            
+            
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2022 AbhishekASLK</p>
+        </div>
+        
+    </section>
+    
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.list-items');
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu');
+        })
+    </script>
+</body>
+</html>
