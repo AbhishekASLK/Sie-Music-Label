@@ -256,6 +256,18 @@ i {
     margin-top: -900px;
     padding-top: 100px;
   }
+  
+  .list-items {
+  flex-direction: column;
+  justify-content: center;
+  transition: all 0.5s ease;
+  margin-top: -900px;
+  position: fixed;
+  width: 80%;
+  top: 5rem;
+  right: 2.5rem;
+  background-color: lightblue;
+}
 
   .mobile-menu {
     margin-top: 0px;
